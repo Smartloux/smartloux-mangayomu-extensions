@@ -1,0 +1,24 @@
+{
+  "manifestVersion": 1,
+  "id": "mangaworld",
+  "name": "MangaWorld",
+  "version": "1.0.0",
+  "publisher": "MangaYomu",
+  "entrypoints": {
+    "server": "server/index.mjs"
+  },
+  "contributes": {
+    "sources": [
+      {
+        "id": "mangaworld",
+        "name": "MangaWorld",
+        "lang": "it",
+        "defaultLanguage": "it",
+        "languages": [
+          { "code": "it", "label": "Italiano", "flag": "🇮🇹" }
+        ],
+        "baseUrl": "https://www.mangaworld.mx"
+      }
+    ]
+  }
+}

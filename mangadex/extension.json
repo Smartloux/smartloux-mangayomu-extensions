@@ -1,0 +1,40 @@
+{
+  "manifestVersion": 1,
+  "id": "mangadex",
+  "name": "MangaDex",
+  "version": "1.0.0",
+  "publisher": "MangaYomu",
+  "entrypoints": {
+    "server": "server/index.mjs"
+  },
+  "contributes": {
+    "sources": [
+      {
+        "id": "mangadex",
+        "name": "MangaDex",
+        "lang": "en",
+        "defaultLanguage": "en",
+        "languages": [
+          { "code": "en", "label": "English", "flag": "🇬🇧" },
+          { "code": "it", "label": "Italiano", "flag": "🇮🇹" },
+          { "code": "es", "label": "Español", "flag": "🇪🇸" },
+          { "code": "pt-br", "label": "Português (Brasil)", "flag": "🇧🇷" },
+          { "code": "fr", "label": "Français", "flag": "🇫🇷" },
+          { "code": "de", "label": "Deutsch", "flag": "🇩🇪" },
+          { "code": "pl", "label": "Polski", "flag": "🇵🇱" },
+          { "code": "ru", "label": "Русский", "flag": "🇷🇺" },
+          { "code": "uk", "label": "Українська", "flag": "🇺🇦" },
+          { "code": "tr", "label": "Türkçe", "flag": "🇹🇷" },
+          { "code": "id", "label": "Bahasa Indonesia", "flag": "🇮🇩" },
+          { "code": "vi", "label": "Tiếng Việt", "flag": "🇻🇳" },
+          { "code": "th", "label": "ไทย", "flag": "🇹🇭" },
+          { "code": "ko", "label": "한국어", "flag": "🇰🇷" },
+          { "code": "ja", "label": "日本語", "flag": "🇯🇵" },
+          { "code": "zh", "label": "中文", "flag": "🇨🇳" },
+          { "code": "zh-hk", "label": "繁體中文", "flag": "🇭🇰" }
+        ],
+        "baseUrl": "https://mangadex.org"
+      }
+    ]
+  }
+}

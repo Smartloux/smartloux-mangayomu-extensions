@@ -1,0 +1,27 @@
+{
+  "repositoryVersion": 1,
+  "id": "mangayomu-extensions",
+  "name": "MangaYomu Extensions",
+  "packages": [
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "version": "1.0.0",
+      "url": "dist/mangadex-1.0.0.zip",
+      "sha256": "249f7aca4b0b0d6d20d45f2ecdcab5f74790cbcdf637619b64a241f168d9c257",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "mangaworld",
+      "name": "MangaWorld",
+      "version": "1.0.0",
+      "url": "dist/mangaworld-1.0.0.zip",
+      "sha256": "3514ae8f874e35288eebffb2e60e518de5851885fe57da9904aeaa22dcbd9b95",
+      "tags": [
+        "source"
+      ]
+    }
+  ]
+}

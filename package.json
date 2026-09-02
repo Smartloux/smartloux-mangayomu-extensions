@@ -1,0 +1,12 @@
+{
+  "name": "@mangayomu/extensions",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:zips": "node scripts/build-zips.mjs",
+    "prepare:site": "node scripts/prepare-web.mjs",
+    "dev:site": "npm run build:zips && npm --prefix web run dev",
+    "build:site": "npm run build:zips && npm run prepare:site && npm --prefix web run build",
+    "preview:site": "npm --prefix web run preview"
+  }
+}
