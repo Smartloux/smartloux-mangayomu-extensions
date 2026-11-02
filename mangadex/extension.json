@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "mangadex",
   "name": "MangaDex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "MangaYomu",
   "entrypoints": {
     "server": "server/index.mjs"

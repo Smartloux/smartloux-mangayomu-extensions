@@ -15,6 +15,11 @@ const CDN = "https://uploads.mangadex.org";
 // reliable when a browse page requests many covers.
 export const MANGADEX_COVER_SUFFIX = ".256.jpg";
 
+// MangaDex answers browser-like user agents with a redirect to its edge
+// challenge, which a server-side fetch cannot solve. Identify the app instead;
+// the host proxy keeps its browser default for sources that need one.
+const IMAGE_USER_AGENT = "MangaYomu/1.0.1 (+https://github.com/mangayomu/mangayomu-app)";
+
 export const MANGADEX_LANGUAGES = [
   { code: "en", label: "English", flag: "🇬🇧" },
   { code: "it", label: "Italiano", flag: "🇮🇹" },
@@ -84,7 +89,7 @@ export function createMangaDex(fetchFn, options = {}) {
 
     // Cover and page images on the MangaDex CDN expect the site as Referer.
     getImageHeaders() {
-      return { Referer: "https://mangadex.org/" };
+      return { Referer: "https://mangadex.org/", "User-Agent": IMAGE_USER_AGENT };
     },
 
     async getLatestManga(page = 1, requestOptions = {}) {

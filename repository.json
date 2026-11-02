@@ -6,9 +6,9 @@
     {
       "id": "mangadex",
       "name": "MangaDex",
-      "version": "1.0.0",
-      "url": "dist/mangadex-1.0.0.zip",
-      "sha256": "249f7aca4b0b0d6d20d45f2ecdcab5f74790cbcdf637619b64a241f168d9c257",
+      "version": "1.0.1",
+      "url": "dist/mangadex-1.0.1.zip",
+      "sha256": "7f7400f5aa54e9d25d7469bc627c9c023cf22bea7cb7685d79d06c1fd572b471",
       "tags": [
         "source"
       ]
